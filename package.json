@@ -1,8 +1,12 @@
 {
+  "name": "rollup-tutorial",
+  "version": "1.0.0",
   "scripts": {
+    "start": "node runner.js",
     "build": "rollup --config"
   },
   "devDependencies": {
+    "@rollup/plugin-json": "^6.0.1",
     "rollup": "^4.5.1"
   }
 }
